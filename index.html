@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Айсанаға арналған 16 жас туған күн сайты 💗" />
+  <title>Айсана, 16 жасың құтты болсын! 🎀</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sparkle-layer" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="logo">🎀 Айсанек</div>
+    <button class="music-btn" id="sparkleBtn" type="button" aria-label="Confetti шашу">✨ Праздник!</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow glow-1"></div>
+      <div class="hero-glow glow-2"></div>
+      <div class="hero-content">
+        <p class="eyebrow">💌 27 ТАМЫЗ · 16 ЖАС</p>
+        <h1>Айсана,<br><span>16 жасың құтты болсын!</span> 🎂</h1>
+        <p class="hero-text">Бүгінгі күн — ең әдемі Айсанектің күні. Күлкің көп, арманың орындалатын жыл болсын! 💗</p>
+        <a class="main-btn" href="#gift">Туған күн сыйлығын ашу ↓</a>
+      </div>
+
+      <div class="hero-card floating">
+        <div class="card-ribbon">16</div>
+        <div class="cake">🎂</div>
+        <div class="mini-title">happy birthday</div>
+        <div class="mini-name">AISANA</div>
+        <div class="hearts">♡ ♥ ♡ ♥ ♡</div>
+      </div>
+    </section>
+
+    <section class="section photo-section" id="photo">
+      <div class="section-heading">
+        <p class="eyebrow">🎞️ SPECIAL MOMENT</p>
+        <h2>Айсанектің туған күніне арналған<br><span>кішкентай экран</span> 💞</h2>
+      </div>
+
+      <div class="gif-frame">
+        <div class="sticker sticker-1">💗</div>
+        <div class="sticker sticker-2">✨</div>
+        <div class="sticker sticker-3">🎀</div>
+        <div class="gif-inner">
+          <img src="assets/aisana.gif" alt="Айсанаға арналған GIF" onerror="this.style.display='none'; document.getElementById('gifFallback').style.display='grid';" />
+          <div id="gifFallback" class="gif-fallback">
+            <div class="fallback-icon">🧸</div>
+            <h3>GIF-іңді осында қой 💗</h3>
+            <p><b>assets/aisana.gif</b> файлын жүктесең болды.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wishes" id="gift">
+      <div class="wish-card big-wish">
+        <span class="wish-icon">🌷</span>
+        <p class="eyebrow">FROM HEART</p>
+        <h2>Айсанаға арналған<br><span>16 тілек</span></h2>
+        <p class="wish-intro">16 жасыңның әр күні кішкентай бақыттарға толы болсын.</p>
+
+        <div class="wish-grid">
+          <div class="wish-pill">💗 Көп күлкі</div>
+          <div class="wish-pill">🌸 Әдемі сәттер</div>
+          <div class="wish-pill">✨ Үлкен армандар</div>
+          <div class="wish-pill">🫶 Жақын адамдар</div>
+          <div class="wish-pill">🎓 Керемет жетістіктер</div>
+          <div class="wish-pill">🌙 Тәтті ұйқы</div>
+          <div class="wish-pill">🍓 Көңілді күндер</div>
+          <div class="wish-pill">💌 Шынайы махаббат</div>
+          <div class="wish-pill">🦋 Еркіндік</div>
+          <div class="wish-pill">🎀 Әдемі образдар</div>
+          <div class="wish-pill">📸 Есте қаларлық фото</div>
+          <div class="wish-pill">☕ Жылы әңгімелер</div>
+          <div class="wish-pill">🎧 Сүйікті әндер</div>
+          <div class="wish-pill">✈️ Жаңа жерлер</div>
+          <div class="wish-pill">💫 Орындалған арман</div>
+          <div class="wish-pill">👑 Өз бақытыңның ханшайымы болу</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section countdown-section">
+      <div class="countdown-card">
+        <div class="countdown-left">
+          <p class="eyebrow">🎂 BIRTHDAY MAGIC</p>
+          <h2>Келесі туған күнге дейін</h2>
+          <p id="countdownLabel">Айсанаға тағы да торт дайындайтын күнге...</p>
+        </div>
+        <div class="countdown" id="countdown" aria-live="polite">
+          <div class="time-box"><strong id="days">00</strong><span>күн</span></div>
+          <div class="time-box"><strong id="hours">00</strong><span>сағат</span></div>
+          <div class="time-box"><strong id="minutes">00</strong><span>мин</span></div>
+          <div class="time-box"><strong id="seconds">00</strong><span>сек</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section letter-section">
+      <div class="letter">
+        <div class="letter-top">💌 A LETTER FOR AISANA</div>
+        <h2>Айсана, сен — <span>ерекшесің!</span></h2>
+        <p>
+          16 жас — жаңа естеліктер, жаңа армандар және өзіңді одан да қатты жақсы көре бастайтын әдемі кезең.
+          Әрдайым өз қалпыңда бол, көп күл, қалағаныңның артынан бар және ешқашан өзіңнің әдемі жүрегіңді өзгертпе.
+        </p>
+        <p class="signature">Сені қатты жақсы көретін адамнан 💗</p>
+      </div>
+    </section>
+
+    <section class="section final-section">
+      <div class="final-badge">🎀 27.08 🎀</div>
+      <h2>HAPPY 16TH, AISANA! 🥳</h2>
+      <p>Бүгінгі күндей өмірің де әрдайым жарқырап тұрсын ✨</p>
+      <button class="main-btn" id="confettiBtn" type="button">Тағы да құттықтайық! 🎉</button>
+    </section>
+  </main>
+
+  <footer>
+    Made with 💗 for Aisanek · 16
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
